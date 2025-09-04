@@ -1,0 +1,65 @@
+// // {
+// //   "compilerOptions": {
+// //     "module": "commonjs",
+// //     "declaration": true,
+// //     "removeComments": true,
+// //     "emitDecoratorMetadata": true,
+// //     "experimentalDecorators": true,
+// //     "allowSyntheticDefaultImports": true,
+// //     "target": "ES2021",
+// //     "sourceMap": true,
+// //     "outDir": "./dist",
+// //     "baseUrl": "./",
+// //     "incremental": true,
+// //     "skipLibCheck": true,
+// //     "strictNullChecks": false,
+// //     "noImplicitAny": false,
+// //     "strictBindCallApply": false,
+// //     "forceConsistentCasingInFileNames": false,
+// //     "noFallthroughCasesInSwitch": false
+// //   },
+// //   "include": [
+// //     "src/**/*"
+// //   ]
+// // }
+
+
+// {
+//   "compilerOptions": {
+//     "outDir": "./dist",
+//     "declaration": true,
+//     "declarationMap": true,
+//     "emitDeclarationOnly": false,
+//     "sourceMap": true,
+//     "moduleResolution": "node",
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "strict": true
+//   },
+//   "include": ["src"]
+// }
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2021",
+    "declaration": true,
+    "declarationMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "incremental": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "baseUrl": "./"
+  },
+  "include": ["src/**/*"]
+}
